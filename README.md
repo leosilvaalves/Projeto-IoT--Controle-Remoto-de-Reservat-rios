@@ -1,5 +1,5 @@
 
-# Projeto-IoT--Controle-Remoto-de-Reservat-rios
+# Controle Remoto de Reservatórios
 
 ## Descrição
 O projeto utiliza o NodeMCU, para obter um controle remoto de um sistema de reservatórios de água via protocolo MQTT e tem o objetivo principal de ser uma solução de baixo custo e acessibilidade para todas as pessoas.
