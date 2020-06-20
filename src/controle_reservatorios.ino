@@ -11,8 +11,8 @@ Relé= porta D5
 
 // Update these with values suitable for your network.
 
-const char* ssid = "WIFI CASA";
-const char* password = "Mery291623";
+const char* ssid = "NOME REDE";
+const char* password = "SENHA REDE";
 const char* mqtt_server = "broker.mqtt-dashboard.com";
 
 WiFiClient espClient;
