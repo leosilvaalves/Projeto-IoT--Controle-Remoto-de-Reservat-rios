@@ -15,6 +15,9 @@ O sistema será composto por dois reservatórios que poderão ser controlados vi
 - 1 Mangueira de aquário 40cm
 - 2 Recipientes para colocar os sensores de nível de água e a bomba de água
 
+## Stech
+O stech do projeto encontra-se na pasta /src.
+
 ## Documentação
 O protocolo utilizado é o MQTT que permite verificar o status do reservatório e acionar o seu abastecimento remotamente. 
 Para visualizar o estado do reservatório e mandar comandos foi utilizado o aplicativo MQTT Dash que permite assinar e publicar em tópicos MQTT. O broker utilizado é o HiveMQ que já vem como broker padrão no stech de exemplo da biblioteca PubSubClient.
