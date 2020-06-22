@@ -10,6 +10,10 @@ O sistema será composto por dois reservatórios que poderão ser controlados vi
 
 ![geral](https://github.com/leosilvaalves/Projeto-IoT--Controle-Remoto-de-Reservat-rios/blob/master/func_geral.jpg)
 
+## Documentação
+O protocolo utilizado é o MQTT que permite verificar o status do reservatório e acionar o seu abastecimento remotamente. 
+Para visualizar o estado do reservatório e mandar comandos foi utilizado o aplicativo MQTT Dash que permite assinar e publicar em tópicos MQTT. O broker utilizado é o HiveMQ que já vem como broker padrão no stech de exemplo da biblioteca PubSubClient.
+
 ## Hardware Utilizado
 - 1 Módulo Esp8266 Esp-12e
 - 2 Sensores de nível de água com Boia Horizontal
@@ -22,6 +26,4 @@ O sistema será composto por dois reservatórios que poderão ser controlados vi
 ## Stech
 O stech do projeto encontra-se na pasta /src.
 
-## Documentação
-O protocolo utilizado é o MQTT que permite verificar o status do reservatório e acionar o seu abastecimento remotamente. 
-Para visualizar o estado do reservatório e mandar comandos foi utilizado o aplicativo MQTT Dash que permite assinar e publicar em tópicos MQTT. O broker utilizado é o HiveMQ que já vem como broker padrão no stech de exemplo da biblioteca PubSubClient.
+
