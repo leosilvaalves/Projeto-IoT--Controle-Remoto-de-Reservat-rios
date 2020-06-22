@@ -4,7 +4,11 @@
 ## Descrição
 <p> O projeto utiliza o NodeMCU V2 para obter um controle remoto de um sistema de reservatórios de água via protocolo MQTT e tem o objetivo principal de ser uma solução de baixo custo e acessibilidade para todas as pessoas.
 O sistema será composto por dois reservatórios que poderão ser controlados via internet (TCP/IP), esse sistema identificará o seu estado através dos sensores de níveis de água e quando entrar em estado crítico enviará alertas. Com bases nessas informações os responsáveis conseguem analisar o que deve ser feito e caso seja necessário poderão acionar o abastecimento do sistema remotamente.</p>
-<p> Este sistema é simples de ser utilizado, através de qualquer aplicativo que permita o envio de mensagens para broker MQTT é possível estar verificando o status do reservatório e acionar o abastecimento remotamente.</p>   
+<p> Este sistema é simples de ser utilizado, através de qualquer aplicativo que permita o envio de mensagens para broker MQTT é possível estar verificando o status do reservatório e acionar o abastecimento remotamente.</p> 
+
+### Funcionamento geral do sistema
+
+![geral](https://github.com/leosilvaalves/Projeto-IoT--Controle-Remoto-de-Reservat-rios/blob/master/func_geral.jpg)
 
 ## Hardware Utilizado
 - 1 Módulo Esp8266 Esp-12e
