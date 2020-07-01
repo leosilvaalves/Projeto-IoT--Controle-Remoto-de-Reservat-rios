@@ -26,4 +26,8 @@ Para visualizar o estado do reservatório e mandar comandos foi utilizado o apli
 ## Stech
 O stech do projeto encontra-se na pasta /src.
 
+## Circuito
+Os detalhes do circuito deste projeto encontram-se na pasta /circuito, onde existem dois arquivos:
+- A imagem demonstrando todo o circuito do projeto. Nesta imagem está faltando apenas as ligações dos sensores de nível de água, pois no fritzing não tem este componente.
+- Um arquivo .fzz no qual é possível verificar o circuito do projeto diretamente no Fritzing.
 
